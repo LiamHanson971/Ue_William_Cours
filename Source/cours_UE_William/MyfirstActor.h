@@ -26,11 +26,6 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UStaticMeshComponent* MeshComponent;
 
-	UPROPERTY(VisibleAnywhere)
-	USpringArmComponent* SpringArm;
-
-	UPROPERTY(VisibleAnywhere)
-	UCameraComponent* Camera;
 
 public:	
 	// Called every frame
